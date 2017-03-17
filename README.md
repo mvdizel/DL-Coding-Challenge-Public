@@ -1,7 +1,6 @@
 # DL-Coding-Challenge
-Welcome to the Detroit Labs coding challenge. 
 
-Please fork this repo and create a branch that includes your name in the branch name (We like to read commits!). Choose from Android, iOS or web to complete this challenge. Comment on what libraries or frameworks you choose to use so we know exactly what code is yours and what is coming from a third-party.
+Choose from Android, iOS or web to complete this challenge.
 
 Plan, document, and build your proof of concept then [submit](#submit) it when you are done. 
 
@@ -86,8 +85,8 @@ Our Evaluation Criteria:
 <a id="submit"></a>
 How to Submit
 ---
-* Please fork this repository and create a branch for your project. 
-* When you are finished, send a pull request for review.
+* Create an archive (.zip, .rar, etc) that contains all your challenge code.
+* Email that archive back to your contact at Detroit Labs.
 * Please make sure any services you may use are deployed so we can test your app.
 * Once we have reviewed your submission we will contact you for the next steps.
 
