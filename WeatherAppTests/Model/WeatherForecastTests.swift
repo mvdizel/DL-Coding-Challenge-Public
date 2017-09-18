@@ -10,5 +10,5 @@ import XCTest
 @testable import WeatherApp
 
 class WeatherForecastTests: XCTestCase {
-  // @TODO: Implement tests.
+  // @TODO: Implement parsing and initializers tests.
 }

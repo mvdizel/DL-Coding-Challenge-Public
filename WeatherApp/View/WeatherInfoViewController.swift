@@ -127,6 +127,9 @@ extension WeatherInfoViewController: UITableViewDelegate {
 // MARK: - Private Methods
 private extension WeatherInfoViewController {
   func setup() {
-    // @TODO: Fix headers for table view. Hide current temperature, when scroll up.
+    viewModel.refreshSection.bind(with: self) { [weak self] (section) in
+      self?.tableView.reloadSections([section.rawValue], with: .automatic)
+    }
+    viewModel.refresh()
   }
 }
