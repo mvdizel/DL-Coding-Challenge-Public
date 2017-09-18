@@ -29,6 +29,7 @@
 		4D9D451C1F608EEE0025B63E /* WeatherInfoViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9D451B1F608EEE0025B63E /* WeatherInfoViewModelTests.swift */; };
 		4D9D451E1F608F980025B63E /* WeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9D451D1F608F980025B63E /* WeatherForecast.swift */; };
 		4D9D45201F608FBF0025B63E /* WeatherForecastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9D451F1F608FBF0025B63E /* WeatherForecastTests.swift */; };
+		4DEC214F1F70540B00CBEE53 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEC214E1F70540B00CBEE53 /* Date+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		4D9D451D1F608F980025B63E /* WeatherForecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherForecast.swift; sourceTree = "<group>"; };
 		4D9D451F1F608FBF0025B63E /* WeatherForecastTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherForecastTests.swift; sourceTree = "<group>"; };
 		4DEC214D1F700CE800CBEE53 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		4DEC214E1F70540B00CBEE53 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		6C70AADE03AE95D249A46DA8 /* Pods-WeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherApp/Pods-WeatherApp.release.xcconfig"; sourceTree = "<group>"; };
 		6D60CB0860C6656AE638A3F3 /* Pods_WeatherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				4D9D45111F6083E40025B63E /* DynamicBinder.swift */,
+				4DEC214E1F70540B00CBEE53 /* Date+Extension.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 				4D9D45011F6072500025B63E /* BaseTableViewCell.swift in Sources */,
 				4D9D450A1F6079B20025B63E /* BaseView.swift in Sources */,
 				4D322A171F6061F90012DA17 /* AppDelegate.swift in Sources */,
+				4DEC214F1F70540B00CBEE53 /* Date+Extension.swift in Sources */,
 				4D9D45051F60762E0025B63E /* NextDayWeatherTableViewCell.swift in Sources */,
 				4D9D45161F6084920025B63E /* ForecastWeatherHeader.swift in Sources */,
 			);
