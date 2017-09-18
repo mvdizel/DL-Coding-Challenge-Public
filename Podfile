@@ -3,7 +3,7 @@ inhibit_all_warnings!
 use_frameworks!
 
 target 'WeatherApp' do
-    pod 'RestKit'
+    pod 'Alamofire'
 end
 
 post_install do |installer|
